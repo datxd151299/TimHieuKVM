@@ -22,9 +22,8 @@
 - Ảo hóa hệ thống máy chủ cho phép chúng ta chạy nhiều máy ảo (VM) trên một máy vật lý, đem lại nhiều lợi ích như tăng tính di động, dễ dàng thiết lập với các máy chủ ảo, giúp việc quản lý chia sẻ tài nguyên tốt hơn, quản lý luồng làm việc phù hợp với nhu cầu, tăng hiệu suất làm việc của một máy chủ vật lý
 - Xét về kiến trúc mô hình ảo hóa hệ thống máy chủ có thể hai dạng sau ***Host-based*** và ***Hypervisor-based***
 - Trước hết đi vào tìm hiểu kiến trúc của 2 mô hình thì chúng ta cần tìm hiểu về khái niệm của Hypervisor như sau
-```
-Hypervisor là các phầm mềm công nghệ để tạo ra máy ảo và có chức năng chính là giám sát và điều khiển máy ảo.Nó được sử dụng để tạo, startup, dừng và reset lại các máy ảo. Các hypervisor cho phép mỗi VM hoặc “guest” truy cập vào lớp tài nguyên phần cứng vật lý bên dưới, chẳng hạn như CPU, RAM và lưu trữ
-```
+*Hypervisor là các phầm mềm công nghệ để tạo ra máy ảo và có chức năng chính là giám sát và điều khiển máy ảo.Nó được sử dụng để tạo, startup, dừng và reset lại các máy ảo. Các hypervisor cho phép mỗi VM hoặc “guest” truy cập vào lớp tài nguyên phần cứng vật lý bên dưới, chẳng hạn như CPU, RAM và lưu trữ*
+
 ### Hypervisor-based (Hypervisor 1)
 Kiến trúc này lớp phần mềm hypervisor chạy trực tiếp trên nền tảng phần cứng của máy chủ, không thông qua bất kì một hệ điều hành hay một nền tảng khác. Qua đó các hypervisor này có khả năng điều khiển, kiểm soát phần cứng của máy.
 ![Hypervisor 1](https://i.imgur.com/usHF9PR.png)
