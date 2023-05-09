@@ -1,6 +1,9 @@
 # Linux Bridge
 [1. Giới thiệu về Linux Bridge](#gioithieuvelinuxbridge)
 
+-   [Cấu trúc của Linux Bridge](#cautruclinuxbridge)
+-   [Cách thức hoạt động](#cachthuchoatdong)
+
 [2. Isolated Virtual Network (Host-Only)](#Isolatedvirtualnetwork)
 
 [3. Routed Virtual Network (Bridge)](#routedvirtualnetwork)
