@@ -8,7 +8,7 @@
 
 <a name="snapshotlagi"></a>
 ## 1. Snapshot là gì ?
-Snapshot là một tính năng ghi lại tất cả trạng thái của máy ảo tại một thời điểm nhất định. Tức có nghĩa là bạn có quay lại trạng thái của máy ảo trước lúc Snapshot. Snapshot sử dụng không gian lưu trữ tối thiểu và đem tới khả năng khôi phục các phiên bản của máy ảo tại một thời điểm nhất định thay vì phải khôi phục hoàn toàn máy ảo.
+Snapshot là một tính năng ghi lại tất cả trạng thái của máy ảo tại một thời điểm nhất định. Tức có nghĩa là bạn có thể quay lại trạng thái của máy ảo trước lúc Snapshot. Snapshot sử dụng không gian lưu trữ tối thiểu và đem tới khả năng khôi phục các phiên bản của máy ảo tại một thời điểm nhất định thay vì phải khôi phục hoàn toàn máy ảo.
 
 Snapshot rất hữu ích trong trường hợp chúng ta phục vụ cho công việc vá lỗi, test một tính năng nào đó của máy ảo
 
